@@ -1,0 +1,7 @@
+pandas>=1.5.0
+matplotlib>=3.5.0
+SQLAlchemy>=1.4.0
+scikit-learn>=1.0.0
+psycopg2-binary>=2.9.0
+openpyxl>=3.0.0  # For Excel file support
+numpy>=1.21.0    # Required by pandas and scikit-learn
