@@ -4,5 +4,5 @@ run_analysis(
     db_url="postgresql://postgres:tejacherry@localhost/NREVSS_Database",
     output_dir="output_data",
     input_value_column="Detections",  # Customize for your input file
-    num_plots=5 
+    num_plots=7
 )

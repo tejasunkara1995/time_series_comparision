@@ -262,8 +262,8 @@ def run_analysis(input_file, db_url, output_dir="output_data",
         )
         
         # Display top results
-        print("\nTop 5 most similar tables:")
-        print(results.head())
+        print(f"\nTop {num_plots} most similar tables:")
+        print(results.head(num_plots))
         
         # Create visualization plots
         print("\nGenerating comparison plots...")
